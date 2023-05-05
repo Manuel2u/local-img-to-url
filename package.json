@@ -1,0 +1,20 @@
+{
+  "name": "local-img-to-url",
+  "version": "1.0.0",
+  "description": "an algorithm to convert local image to urls",
+  "main": "index.js",
+  "author": "manuel_dev",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "start": "node ./dist/src/index.js",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
